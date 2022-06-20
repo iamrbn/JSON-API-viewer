@@ -10,7 +10,16 @@ If the device clipboard includes `https://` it will filled automatically in the 
 
 <br>
 
+If the input is no URL or the api didn't answer (_in JSON Format_) you'll get an issue alert.
+
+<p align="center">
+<img title="Issue alert if the URL input is invalid" src="Images/issueAlert.png" width="300">
+  </p>
+  
+<br>
+
 ___
+
 <div class="images">
 <p align="center">
   <a href="https://reddit.com/user/iamrbn/">
