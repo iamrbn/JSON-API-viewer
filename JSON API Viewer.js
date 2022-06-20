@@ -3,8 +3,8 @@
 // icon-color: deep-green; icon-glyph: file-code;
 
 //'https://www.tagesschau.de/api2/homepage/'
-var pasteStr;
 if (Pasteboard.pasteString().includes('https://')) pasteStr = Pasteboard.pasteString();
+else pasteStr = null;
 
 let nAlert = new Alert();
     nAlert.title = 'ENTER API URL';
@@ -13,9 +13,8 @@ let nAlert = new Alert();
     nAlert.addDestructiveAction('Cancel');
     let idx = await nAlert.presentAlert();
     if (idx == 0) inputURL = nAlert.textFieldValue(0);
-    else throw new Error("User Clicked Cancel"); inputURL = null;
+    else throw new Error("User Clicked Cancel")
 
-//---
 
 if (pasteStr == null || inputURL.length < 12) {
     await errorAlert("No Valid Input Detected", `Please Check The API URL:\n"${inputURL}"`)
