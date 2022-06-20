@@ -1,4 +1,4 @@
-# JSON-API-Viewer for Scriptable
+# <img title="JSON Viewer Icon Scriptable" src="Images/JSON_viewer_icon.png" width="30"> JSON-API-Viewer for Scriptable
 ![](https://img.shields.io/badge/Version-1.2-green.svg?style=flat) 
 
 ### Features
