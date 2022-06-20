@@ -1,4 +1,5 @@
 # JSON-API-Viewer for Scriptable
+![](https://img.shields.io/badge/Version-1.2-green.svg?style=flat) 
 
 ### Features
 If the device clipboard includes `https://` it will filled automatically in the field.
