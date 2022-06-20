@@ -13,11 +13,17 @@ If the device clipboard includes `https://` it will filled automatically in the 
 If the input is no URL or the api didn't answer (_in JSON Format_) you'll get an issue alert.
 
 <p align="center">
-<img title="Issue alert if the URL input is invalid" src="Images/issueAlert.png" width="300">
+<img title="Issue alert if the URL input is invalid" src="Images/issueAlert.png" width="350">
   </p>
   
 <br>
 
+When the API answer has the correct response format it will shown via `QuickLook.present(response, false)`
+<p align="center">
+<img title="How the API JSON response will presents" src="Images/presentJSON-API.png" width="350">
+  </p>
+  
+<br>
 ___
 
 <div class="images">
