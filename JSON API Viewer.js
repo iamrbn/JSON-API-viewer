@@ -2,7 +2,12 @@
 // These must be at the very top of the file. Do not edit.
 // icon-color: deep-green; icon-glyph: file-code;
 
+// ============== EXAMPLE APIs ===============
 //'https://www.tagesschau.de/api2/homepage/'
+//'https://status.slack.com/api/v2.0.0/current'
+//'https://status.slack.com/api/v2.0.0/history'
+// ===========================================
+
 if (Pasteboard.pasteString().includes('https://')) pasteStr = Pasteboard.pasteString();
 else pasteStr = null;
 
@@ -26,7 +31,6 @@ if (pasteStr == null || inputURL.length < 12) {
     await errorAlert("Couldn’t Fetch Datas From API", "No Or Broken Response")
   }
 };
-
 
 function errorAlert(title, message) {
   let errAlert = new Alert();
